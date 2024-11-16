@@ -158,9 +158,8 @@ body{
   justify-content: center;
   margin-top: 1rem;
   padding-top: 1rem;
-  margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px dashed white;
+
 }
 
 .hero-text, .hero-shelf h1{
@@ -476,6 +475,7 @@ footer h5{
 .type-tabs-container{
   display: flex;
   flex-direction: row ;
+  max-width: 80rem;
 }
 
 .type-tab{
@@ -484,20 +484,47 @@ footer h5{
   flex: 1;
 }
 
-.type-tab h5:first-of-type{
-  text-align: center;
+.tab-title h5:first-of-type{
   color: orange;
   font-weight: bold;
+
+}
+
+
+.tab-title{
+  display: flex;
+  flex-direction: row;
   border-bottom: 1px dashed white;
+  justify-content: space-between;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
 }
 
-.type-tab h5:nth-of-type(2)
-{
+.tab-title-secondary{
+  margin-top: 1rem;
+  text-align: end;
+}
+
+.experience-title{
+  color: orange;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
+.experience-year{
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-section p{
+  margin-bottom: 0.5rem;
+  line-height: 1.2rem;
+}
+
+.type-tab{
+  display: flex;
+  flex-direction: column;
+}
 .type-tab ul{
   padding-left: 1rem;
   color: white;
@@ -505,6 +532,11 @@ footer h5{
 .type-tab ul li{
   margin-bottom: 0.5rem;
   line-height: 1.2rem;
+}
+
+.tab-section{
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed white;
 }
 
 .social-media-tray{
