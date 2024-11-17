@@ -544,3 +544,20 @@ footer h5{
  
 
 }
+
+/* Work Examples */
+
+.work-examples{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.work-example-piece{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  border: 1px dashed white;
+}
