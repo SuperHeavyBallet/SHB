@@ -561,3 +561,15 @@ footer h5{
   margin-bottom: 1rem;
   border: 1px dashed white;
 }
+
+.example-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.example-image{
+  max-width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
