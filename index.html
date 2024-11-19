@@ -246,12 +246,15 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
 
+        fetch("./work-examples/work-examples.json")
+        .then(response => response.json())
+        .then(json => console.log(json));
         const textTimer = 1000;
         let currentIndex = 1;
 
         const arrayOfTextElements = document.getElementsByClassName("timed-text");
 
-        console.log(arrayOfTextElements);
+  
        
 
         const scrollText = setInterval(() => {
