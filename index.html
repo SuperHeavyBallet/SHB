@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHB Contact</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
     <div class="main-content">
@@ -246,15 +246,24 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
 
-        fetch("./work-examples/work-examples.json")
-        .then(response => response.json())
-        .then(json => console.log(json));
+        fetch('./data/work-examples.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            // Use the data to populate your HTML
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+
+
         const textTimer = 1000;
         let currentIndex = 1;
 
         const arrayOfTextElements = document.getElementsByClassName("timed-text");
-
-        console.log("Data: " );
 
   
        
