@@ -1,18 +1,81 @@
 {
-    "web-work-1" : {
-        "title" : "Web Work 1",
-        "body" : "Some text etc" 
-    } ,
+    "web-work": [
+        { "title": "Armwrestling Academia Blog / Exercise Database",
+         "description": [
+            "An ongoing website I am building to create blog posts on the topic of Armwrestling as a sport, as well as providing a database of useful exercises.",
+            "Second test."
+         ],
+        "link" : "https://www.google.com" },
+        { "title": "Random Noise Texture Generator", 
+        "description": [
+            "I built this to help me create Random Noise based images for use in game development, specifically to create textures."
+        ], 
+        "link" : "https://www.google.com" },
+        { "title": "Battleships in Browser!", 
+            "description": [
+                "A JS game I built to be played in browser against the computer."
+            ], "link" : "https://www.google.com" }
 
-    "web-work-2" : {
-        "title" : "Web Work 1",
-        "body" : "Some text etc" 
-    }
+    ],
+    "game-work": [
+        { "title": "First Person Shooter", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
 
-    ,
+            { "title": "Space Munchers", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
 
-    "web-work-3" : {
-        "title" : "Web Work 1",
-        "body" : "Some text etc" 
-    }
+            { "title": "Messages To Mars",
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
+
+            { "title": "Dropship", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
+
+        { "title": "Robot Platformer", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" }
+
+     
+
+    ],
+    "video-work": [
+        { "title": "The Liver King Lie", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
+
+        { "title": "Galactic Vault Game Trailer", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" },
+        
+        { "title": "Zack Telander Youtube Channel", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
+            ], "link" : "https://www.google.com" }
+    ]
 }

@@ -475,7 +475,8 @@ footer h5{
 .type-tabs-container{
   display: flex;
   flex-direction: row ;
-  max-width: 80rem;
+  width: 60rem;
+
 }
 
 .type-tab{
@@ -547,9 +548,47 @@ footer h5{
 
 /* Work Examples */
 
-.work-examples{
+.work-selector{
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+}
+.work-types{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.work-types h5{
+  border: 1px solid white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  
+}
+
+.work-types h5:hover{
+  cursor: pointer;
+  background-color: orange;
+  color: black;
+}
+
+.work-example-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-example-container h5{
+  padding: 1rem;
+}
+
+.work-examples{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 
   margin-bottom: 1rem;
   color: white;
@@ -560,6 +599,18 @@ footer h5{
   flex-direction: column;
   margin-bottom: 1rem;
   border: 1px dashed white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 25rem;
+}
+
+.work-example-piece h5{
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.work-example-piece p{
+  margin-left: 0.5rem;
 }
 
 .example-content{
@@ -572,4 +623,8 @@ footer h5{
   height: 10rem;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.hidden{
+  display: none;
 }
