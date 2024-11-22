@@ -192,6 +192,8 @@
         const selectGameTypeButton = document.getElementById("selectGameType");
         const selectVideoTypeButton = document.getElementById("selectVideoType");
 
+     
+
         selectWebTypeButton.addEventListener("click", (e) => {
             e.preventDefault();
             webWorkContainer.classList.remove("hidden");
@@ -239,6 +241,14 @@
         const webWorkExamples = document.getElementById("web-work-examples");
         const gameWorkExamples = document.getElementById("game-work-examples");
         const videoWorkExamples = document.getElementById("video-work-examples");
+
+        webWorkContainer.classList.add("hidden");
+            gameWorkContainer.classList.remove("hidden");
+            videoWorkContainer.classList.add("hidden");
+
+            webSkillsContainer.classList.add("hidden");
+            gameSkillsContainer.classList.remove("hidden");
+            videoSkillsContainer.classList.add("hidden");
 
         
 
