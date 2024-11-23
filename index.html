@@ -166,6 +166,8 @@
 <div class="work-examples" id="game-work-examples">
 </div>
 
+
+
     
 
 </div>
@@ -176,11 +178,50 @@
 <div class="work-examples" id="video-work-examples">
 </div>
 
+
+
    
 
 
 </div>
 
+<!--About Me In this field-->
+
+<div class="about-container" id="about-web">
+    <div class="type-tab">
+        <div class="tab-section">
+        <div class="tab-title">
+            <h5><strong>About me and Web Design</strong></h5>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum nihil odio, pariatur omnis doloremque fugiat! Quis provident debitis, id quibusdam eum recusandae nesciunt cumque at placeat, rem repudiandae temporibus?</p>
+    </div>
+</div>
+</div>
+
+<div class="about-container" id="about-game">
+    <div class="type-tab">
+        <div class="tab-section">
+        <div class="tab-title">
+            <h5><strong>About me and Game Development</strong></h5>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum nihil odio, pariatur omnis doloremque fugiat! Quis provident debitis, id quibusdam eum recusandae nesciunt cumque at placeat, rem repudiandae temporibus?</p>
+    </div>
+</div>
+</div>
+
+<div class="about-container" id="about-video">
+    <div class="type-tab">
+        <div class="tab-section">
+        <div class="tab-title">
+            <h5><strong>About me and Video Editing/Production</strong></h5>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum nihil odio, pariatur omnis doloremque fugiat! Quis provident debitis, id quibusdam eum recusandae nesciunt cumque at placeat, rem repudiandae temporibus?</p>
+    </div>
+</div>
+</div>
 
     
 </body>
@@ -203,6 +244,10 @@
             webSkillsContainer.classList.remove("hidden");
             gameSkillsContainer.classList.add("hidden");
             videoSkillsContainer.classList.add("hidden");
+
+            aboutWebContainer.classList.remove("hidden");
+            aboutGameContainer.classList.add("hidden");
+            aboutVideoContainer.classList.add("hidden");
         })
 
        
@@ -216,6 +261,10 @@
             webSkillsContainer.classList.add("hidden");
             gameSkillsContainer.classList.remove("hidden");
             videoSkillsContainer.classList.add("hidden");
+
+            aboutWebContainer.classList.add("hidden");
+            aboutGameContainer.classList.remove("hidden");
+            aboutVideoContainer.classList.add("hidden");
         })
 
         selectVideoTypeButton.addEventListener("click", (e) => {
@@ -227,6 +276,10 @@
             webSkillsContainer.classList.add("hidden");
             gameSkillsContainer.classList.add("hidden");
             videoSkillsContainer.classList.remove("hidden");
+
+            aboutWebContainer.classList.add("hidden");
+            aboutGameContainer.classList.add("hidden");
+            aboutVideoContainer.classList.remove("hidden");
         })
 
         const webSkillsContainer = document.getElementById("skills-web");
@@ -237,6 +290,9 @@
         const gameWorkContainer = document.getElementById("game-work-container");
         const videoWorkContainer = document.getElementById("video-work-container");
 
+        const aboutWebContainer = document.getElementById("about-web");
+        const aboutGameContainer = document.getElementById("about-game");
+        const aboutVideoContainer = document.getElementById("about-video");
         
         const webWorkExamples = document.getElementById("web-work-examples");
         const gameWorkExamples = document.getElementById("game-work-examples");
@@ -249,6 +305,10 @@
             webSkillsContainer.classList.add("hidden");
             gameSkillsContainer.classList.remove("hidden");
             videoSkillsContainer.classList.add("hidden");
+
+            aboutWebContainer.classList.add("hidden");
+            aboutGameContainer.classList.remove("hidden");
+            aboutVideoContainer.classList.add("hidden");
 
         
 

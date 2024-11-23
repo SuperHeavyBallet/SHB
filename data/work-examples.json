@@ -76,6 +76,12 @@
             [
                 "A sample game",
                 "A sample game"
+            ], "link" : "https://www.google.com" },
+            { "title": "Clarence Kennedy Animated Video", 
+            "description": 
+            [
+                "A sample game",
+                "A sample game"
             ], "link" : "https://www.google.com" }
     ]
 }
