@@ -157,8 +157,10 @@ body{
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 2rem;
 
 
 }
@@ -166,20 +168,26 @@ body{
 .hero-shelf-left{
   margin: 0;
   padding: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid white;
+  padding: 1rem;
 }
 
 
 .hero-shelf-right{
   margin: 0;
-  padding: 0;
+  padding: 1rem;
+
+  flex: 2;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
+  
 }
 
 .hero-text, .hero-shelf h1{
@@ -497,12 +505,14 @@ footer h5{
   display: flex;
   flex-direction: row ;
   width: 60rem;
+  border: 1px solid white;
+  border-radius: 15px;
 
 }
 
 .type-tab{
-  padding: 1rem;
-  margin: 1rem;
+  
+  
   flex: 1;
 }
 
@@ -516,11 +526,17 @@ footer h5{
 .tab-title{
   display: flex;
   flex-direction: row;
-  border-bottom: 1px dashed white;
+  border-bottom: 1px solid white;
   justify-content: space-between;
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+  padding: 1.25rem 1rem;
   align-items: center;
+
+  border-radius: 15px 15px 0 0;
+}
+
+.first-section{
+  border-bottom: 1px solid white;
 }
 
 .tab-title-secondary{
@@ -528,10 +544,24 @@ footer h5{
   text-align: end;
 }
 
+.tab-content{
+
+  padding: 0.5rem 0 0 2rem;
+}
+
+.tab-content svg{
+  max-width: 1.25rem;
+  max-height: 1.25rem;
+  padding-right: 0.5rem;
+}
+
+.experience-section{
+  padding: 1rem;
+}
 .experience-title{
-  color: orange;
+  color: #ffa500;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .experience-year{
@@ -559,7 +589,7 @@ footer h5{
 
 .tab-section{
   padding-bottom: 1rem;
-  border-bottom: 1px dashed white;
+
 }
 
 .social-media-tray{
@@ -574,6 +604,7 @@ footer h5{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 
 }
 .work-types{
@@ -621,7 +652,7 @@ footer h5{
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  border: 1px dashed white;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 1rem;
   width: 25rem;

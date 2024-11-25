@@ -5,22 +5,29 @@
             "An ongoing website I am building to create blog posts on the topic of Armwrestling as a sport, as well as providing a database of useful exercises.",
             "Second test."
          ],
-        "link" : "https://www.google.com" },
+        "link" : "https://www.google.com",
+        "work-type-icon" : "web-page" },
+
         { "title": "My Portfolio Page",
          "description": [
             "An ongoing website I am building to create blog posts on the topic of Armwrestling as a sport, as well as providing a database of useful exercises.",
             "Second test."
          ],
-        "link" : "https://www.google.com" },
+        "link" : "https://www.google.com" ,
+        "work-type-icon" : "web-page"},
+
         { "title": "Random Noise Texture Generator", 
         "description": [
             "I built this to help me create Random Noise based images for use in game development, specifically to create textures."
         ], 
-        "link" : "https://www.google.com" },
+        "link" : "https://www.google.com",
+        "work-type-icon" : "web-tool" },
+
         { "title": "Battleships in Browser!", 
             "description": [
                 "A JS game I built to be played in browser against the computer."
-            ], "link" : "https://www.google.com" }
+            ], "link" : "https://www.google.com",
+        "work-type-icon" : "web-game" }
 
     ],
     "game-work": [
@@ -29,35 +36,43 @@
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com",
+            "work-type-icon" : "game" },
 
             { "title": "Space Munchers", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com",
+            "work-type-icon" : "game" },
 
             { "title": "Messages To Mars",
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com"
+            ,
+            "work-type-icon" : "game" },
 
             { "title": "Dropship", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com"
+            ,
+            "work-type-icon" : "game" },
 
         { "title": "Robot Platformer", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" }
+            ], "link" : "https://www.google.com"
+            ,
+            "work-type-icon" : "game" }
 
      
 
@@ -68,26 +83,31 @@
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com"
+            ,
+            "work-type-icon" : "youtube" },
 
         { "title": "Galactic Vault Game Trailer", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com",
+            "work-type-icon" : "game"  },
         
         { "title": "Zack Telander Youtube Channel", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" },
+            ], "link" : "https://www.google.com",
+            "work-type-icon" : "youtube"  },
             { "title": "Clarence Kennedy Animated Video", 
             "description": 
             [
                 "A sample game",
                 "A sample game"
-            ], "link" : "https://www.google.com" }
+            ], "link" : "https://www.google.com",
+            "work-type-icon" : "youtube"  }
     ]
 }
