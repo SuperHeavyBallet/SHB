@@ -707,3 +707,18 @@ li{
   align-items: center;
 }
 
+.about-container{
+  display: flex;
+  flex-direction: row ;
+  width: 60rem;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.about-text{
+  padding: 2rem;
+}
+
+.hidden{
+  display: none;
+}
