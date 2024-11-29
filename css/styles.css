@@ -719,6 +719,40 @@ li{
   padding: 2rem;
 }
 
+.about-text strong{
+  color: #ffa500;
+}
+
 .hidden{
   display: none;
+}
+
+footer{
+  width: 60rem;
+  
+  background-color: black;
+  border-radius: 15px;
+ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+footer h5{
+  padding: 0.5rem;
+}
+
+.footer-text{
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+em{
+  font-style: italic;
+  color: gray;
+}
+
+.footer-text strong{
+  color: #ffa500;
 }
