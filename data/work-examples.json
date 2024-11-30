@@ -9,9 +9,10 @@
         "work-type-icon" : "web-page" },
 
         { "title": "My Portfolio Page",
+        "imageURL" : "./images/portfolioWebsite.png", 
          "description": [
-            "An ongoing website I am building to create blog posts on the topic of Armwrestling as a sport, as well as providing a database of useful exercises.",
-            "Second test."
+            "The portfolio web page that you are currently on!",
+            "A mix of simple HTML, CSS and JS with content hosted locally as a JSON and the site deployed using GitHub Pages."
          ],
         "link" : "https://www.google.com" ,
         "work-type-icon" : "web-page"},
@@ -31,46 +32,55 @@
 
     ],
     "game-work": [
-        { "title": "First Person Shooter", 
+        { "title": "Mech Hunter | 3D FPS Action Game", 
+        "imageURL" : "./images/mechHunter.png", 
             "description": 
             [
-                "A sample game",
-                "A sample game"
+                "My current, ongoing project making a big shift from simple 2D games.",
+                "A 3D first person shooter built in Unity, using Maya, Adobe Substance and many other tools to deliver an action packed shooting action game with heavy mechanised enemies."
             ], "link" : "https://www.google.com",
             "work-type-icon" : "game" },
 
-            { "title": "Space Munchers", 
+            { "title": "Space Munchers | 2D Arcade Game", 
+            "imageURL" : "./images/spaceMunchers.png", 
             "description": 
             [
-                "A sample game",
-                "A sample game"
-            ], "link" : "https://www.google.com",
+                "A fun, simple arcade game built around falling objects as a gameplay mechanic.",
+                "This was built non-officially alongside a GameJam on itch.io, within a week.",
+                "The main objective was to build an engaging, addictive gameplay loop that allowed a lot of play time to be derived from minimal assets and content."
+            ], "link" : "https://superheavyballet.itch.io/space-munchers",
             "work-type-icon" : "game" },
 
-            { "title": "Messages To Mars",
+            { "title": "Messages To Mars | 2D Narrative Platformer",
+            "imageURL" : "./images/messagesToMars.png", 
             "description": 
             [
-                "A sample game",
-                "A sample game"
-            ], "link" : "https://www.google.com"
+                "I built this within a week for a GameJam competition on itch.io.",
+                "The concept was simple, 'Bringing Things Together, so I took the idea and crafter a narrative driven plot around simple 2d Platforming mechanics.",
+                "I am pleased with the level of visual clarity and style I was able to compose in such a short time, and if given a little more would have further fleshed out the environment."
+            ], "link" : "https://superheavyballet.itch.io/messages-to-mars"
             ,
             "work-type-icon" : "game" },
 
-            { "title": "Dropship", 
+            { "title": "Dropship | 2D Arcade Game", 
+            "imageURL" : "./images/dropShip.png", 
             "description": 
             [
-                "A sample game",
-                "A sample game"
-            ], "link" : "https://www.google.com"
+                "This simple game makes use of the built in rigidbody and physics systems in Unity to allow a world to be built around the simple mechanic of 'Controlled falling'.",
+                "The art style was simple but striking, creating a very clear idea of where the player and each part of the level sit and what functions they perform.",
+                "I also incorporated a very minimal sound environment, taking advantages of the emptiness of the setting (space)."
+            ], "link" : "https://superheavyballet.itch.io/dropship"
             ,
             "work-type-icon" : "game" },
 
-        { "title": "Robot Platformer", 
+        { "title": "Dirty Robots | 2D Platformer", 
+        "imageURL" : "./images/dirtyRobots.png", 
             "description": 
             [
-                "A sample game",
-                "A sample game"
-            ], "link" : "https://www.google.com"
+                "On a 3 person team, I was tasked with everything visual and atmospheric on this project.",
+                "Character Art, Environment Art, Effects, Props, Sounds, Music, Story and much more.",
+                "The project was tremendously hopeful, coming together quite quickly into something that seemed fantastic. However, being mostly students, the team eventually broke apart and thus the project ended."
+            ], "link" : "https://youtu.be/WXFwJqJlJ2s"
             ,
             "work-type-icon" : "game" }
 

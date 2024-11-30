@@ -161,7 +161,7 @@
             <div class="experience-section">
                 <h5 class="experience-title"><strong>Web Developer, Freelance</strong></h5>
                 <h5 class="experience-year">2020 - Present</h5>
-                <ul>
+                <ul class="experience-list">
                     <li>Designed and developed responsive portfolio websites and blogs using HTML, CSS and JS.</li>
                     <li>Built backend with Node.js and Express, integrating MongoDB for dynamic content management.</li>
                     <li>Developed a catalogue and blog system using DB retrieval to enhance content organisation and navigation.</li>
@@ -175,7 +175,7 @@
                 <div class="tools-skills">
                     <div class="tools">
                 <h5>Tools:</h5>
-                <ul>
+                <ul class="experience-list">
                     <li>HTML, CSS, Javascript</li>
                     <li>Visual Studio Code</li>
                     <li>Git, Linux, CLI</li>
@@ -183,14 +183,14 @@
             </div>
             <div class="skills">
                 <h5>Skills:</h5>
-                <ul>
+                <ul class="experience-list">
                     <li>HTML, CSS, Javascript</li>
                     <li>Visual Studio Code</li>
                 </ul>
             </div>
             </div>
 
-                <ul>
+                <ul class="experience-list">
                     <li>Built a small tool with vanilla Javascript to generate random noise images for use as textures in games and animation.</li>
                     <li>Incorporated Canvas, Input Parameters and processing data through a Perlin Noise alogorithm to output an image.</li>
                    
@@ -205,7 +205,7 @@
                 <div class="tools-skills">
                     <div class="tools">
                 <h5>Tools:</h5>
-                <ul>
+                <ul class="experience-list">
                     <li>HTML, CSS, Javascript</li>
                     <li>NodeJS, Express</li>
                     <li>MongoDB</li>
@@ -215,14 +215,14 @@
             </div>
             <div class="skills">
                 <h5>Skills:</h5>
-                <ul>
+                <ul class="experience-list">
                     <li>HTML, CSS, Javascript</li>
                     <li>Visual Studio Code</li>
                 </ul>
             </div>
             </div>
         
-                <ul>
+                <ul class="experience-list">
                     <li>Built a small tool with vanilla Javascript to generate random noise images for use as textures in games and animation.</li>
                     <li>Incorporated Canvas, Input Parameters and processing data through a Perlin Noise alogorithm to output an image.</li>
                    
@@ -696,25 +696,30 @@
             <div class="tab-content">
                 <!-- Experience Section-->
                 <div class="experience-section">
-                    <h5 class="experience-title"><strong>Game Developer, Freelance</strong></h5>
+                    <h5 class="experience-title"><strong>Game Developer - Freelance</strong></h5>
                     <h5 class="experience-year">Self | 2020 - Present</h5>
-                    <ul>
-                        <li>Developed 2D and 3D games, including platformers, top down rpgs and vehicle-based mechanics using C# and Unity.</li>
+                    <ul class="experience-list">
+                        <li>Developed 5 2D and 3D games, including platformers, top down rpgs and vehicle-based mechanics using C# and Unity, integrating regular player feedback on mechanics and visual style into the process.</li>
                         <li>Created and imported 3D models and textures in game with Maya and Substance Painter, maintaining a polished visual style.</li>
                         <li>Published Multiple projects to itch.io</li>
+                        <li>Regular Version Control management via Git / Github.</li>
                         <li>Partook in multiple GameJam events.</li>
+                        <li>Used Adobe Photoshop to create UI elements and promotional assets for games.</li>
                         <li>Designed immersive soundscapes to enhance player engagement.</li>
+                        <li>Refined time management and project planning through self-driven game development.</li>
                     </ul>
                 </div>
 
                 <!-- Experience Section-->
                 <div class="experience-section">
-                    <h5 class="experience-title"><strong>Lead Character Designer</strong></h5>
+                    <h5 class="experience-title">Lead Character Designer - Dirty Robots</h5>
                     <h5 class="experience-year">Indie Dev Studio | 2023</h5>
-                    <ul>
-                        <li>Designed Characters for a 2d Robot Platformer, in a cute yet detailed style of art.</li>
+                    <ul class="experience-list">
+                        <li>Designed 6 Unique Characters for a 2d Robot Platformer, in a cute yet detailed style of art.</li>
                         <li>Created concept sketches all the way to in-game sprites used in the final product.</li>
-                    
+                        <li>Designed and implemented Environmental art, items and props.</li>
+                        <li>Collaborated closely with the animator for seamless integration between design and use in Unity.</li>
+                        <li>Participated in regular brainstorming sessions to conceptualize each character and art piece and the specific roles they would play, and the requirements for each one.</li>
                     </ul>
                 </div>
             </div>
@@ -918,7 +923,7 @@
                 <div class="experience-section">
                     <h5 class="experience-title"><strong>Video Editor, Freelance</strong></h5>
                     <h5 class="experience-year">Self | 2016 - Present</h5>
-                    <ul>
+                    <ul class="experience-list">
                         <li>Edited and produced over 1,000 videos for YouTube content creators, specialising in storytelling, branding and investigative journalism.</li>
                         <li>Helped build channels from a few hundred subscribers to 50k, 100k and over 200k with sustained effort.</li>
                         <li>Created content which directly reshaped the entire fitness industry, reaching over 5 million viewers.</li>
@@ -1170,7 +1175,7 @@
                 workBody.classList.add("example-content");
 
                 const workImage = document.createElement("img");
-                workImage.setAttribute("src", "./images/MainBefore.jpg");
+                workImage.setAttribute("src", item.imageURL || "./images/MainBefore.jpg");
                 workImage.classList.add("example-image");
 
                 const workText = document.createElement("div");
@@ -1185,7 +1190,7 @@
                 
 
                 const workLink = document.createElement("a");
-                workLink.textContent = "Check it out here!";
+                workLink.textContent = "Check it out here";
                 workLink.setAttribute("href", item.link)
                 workLink.setAttribute("target", "_blank");
 
