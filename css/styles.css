@@ -642,7 +642,7 @@ footer h5{
   border-radius: 10px;
   padding: 0.5rem;
   margin: 0.5rem;
-  
+  text-align: center;
 }
 
 .work-types h5:hover{
@@ -760,6 +760,7 @@ li{
   border-radius: 15px;
 }
 
+
 .about-text{
   padding: 2rem;
 }
@@ -800,4 +801,44 @@ em{
 
 .footer-text strong{
   color: #ffa500;
+}
+
+@media (max-width: 1100px) {
+  .about-container, .type-tabs-container,  .main-content, footer{
+    width: 90vw; /* 90% of the viewport width */
+  }
+
+  .work-examples{
+    display: flex;
+    flex-direction: column;
+ 
+  
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .work-example-piece{
+    width: 80vw;
+  }
+
+
+}
+
+@media (max-width: 800px)
+{
+
+}
+
+@media (max-width: 500px)
+{
+ .hero-shelf{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .hero-shelf-left{
+
+  border: none;
+
+ }
 }
