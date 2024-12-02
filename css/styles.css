@@ -564,6 +564,12 @@ footer h5{
 .experience-section{
   padding: 1rem;
 }
+
+.experience-head{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
 .experience-title{
   color: #ffa500;
   font-weight: bold;
