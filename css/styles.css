@@ -293,6 +293,7 @@ body{
 .blog-page-grid{
   display: flex;
   flex-direction: row;
+  width: 60rem;
 }
 
 /* Article Content */
@@ -303,7 +304,7 @@ body{
   border: 1px solid white;
   padding: 0 0 1rem 0;
   margin-bottom: 1rem;
-  flex: 1;
+  flex: 3;
 }
 
 .article-content h2:first-of-type{
@@ -313,6 +314,12 @@ body{
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+
+.blog-body img{
+  align-self: center;
+  max-width: 90%;
+  margin-bottom: 1rem;
 }
 
 .blog-body h1{
