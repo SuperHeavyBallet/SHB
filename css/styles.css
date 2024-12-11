@@ -814,7 +814,7 @@ em{
 }
 
 @media (max-width: 1100px) {
-  .about-container, .type-tabs-container,  .main-content, footer{
+  .about-container, .type-tabs-container,  .main-content, footer, .head-navbar{
     width: 90vw; /* 90% of the viewport width */
   }
 
@@ -851,4 +851,26 @@ em{
   border: none;
 
  }
+
+ .head-navbar
+ {
+  font-size: small;
+ }
+
+ .work-types h5{
+  font-size: small;
+ }
+}
+
+@media (max-width: 400px)
+{
+
+  .head-navbar
+  {
+   font-size: x-small;
+  }
+
+  a::before{
+    content: '';
+  }
 }
