@@ -17,6 +17,18 @@
         "link" : "https://www.google.com" ,
         "work-type-icon" : "web-page"},
 
+        {
+            "title": "Ready Go! Web App for Armwrestling Training",
+            
+            "description" : [
+                "Built for a personal need for a portable countdown timer with random times per round.",
+                "Using mostly JS, HTML and CSS, I made a simple, single page app that takes user input and starts the sequence on command and then follows through until completion, and then allows the user to restart.",
+                "Making use of AI to generate voice clips, I created a very specific tool for athletes such as myself."
+            ],
+            "link" : "https://superheavyballet.github.io/Ready-Go-Mockup/",
+            "work-type-icon" : "web-page"
+        },
+
         { "title": "Random Noise Texture Generator", 
         "description": [
             "I built this to help me create Random Noise based images for use in game development, specifically to create textures."
