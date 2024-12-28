@@ -1,0 +1,87 @@
+{
+    "dev-logs" : [
+        {
+            "title": "Fractured Steel DevLog 01",
+            "subtitle" : "Starting a ridiculously out of my realm project because I can.",
+            "main-content" : [
+                "Paragraph1",
+                "Paragraph2",
+                "Paragraph3"
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024"
+
+        },
+        {
+            "title": "Fractured Steel DevLog 02",
+            "subtitle" : "continuing a ridiculously out of my realm project because I can.",
+            "main-content" : [
+                "Paragraph1",
+                "Paragraph2",
+                "Paragraph3"
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024"
+        }
+
+    ],
+    "web-dev" : [
+            {
+                "title": "Wev DevLog 01",
+                "subtitle" : "Starting a ridiculously out of my realm project because I can.",
+                "main-content" : [
+                    "Paragraph1",
+                    "Paragraph2",
+                    "Paragraph3"
+                ],
+                "tags": [ "game-dev", "indie-dev", "indie-games"],
+                "author" : "Alexander Gorham",
+                "date-written" : "29/12/2024"
+    
+            },
+            {
+                "title": "Web DevLog 02",
+                "subtitle" : "continuing a ridiculously out of my realm project because I can.",
+                "main-content" : [
+                    "Paragraph1",
+                    "Paragraph2",
+                    "Paragraph3"
+                ],
+                "tags": [ "game-dev", "indie-dev", "indie-games"],
+                "author" : "Alexander Gorham",
+                "date-written" : "29/12/2024"
+            } 
+        
+
+    ],
+    "other" : [
+        {
+            "title": "Other DevLog 01",
+            "subtitle" : "Starting a ridiculously out of my realm project because I can.",
+            "main-content" : [
+                "Paragraph1",
+                "Paragraph2",
+                "Paragraph3"
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024"
+
+        },
+        {
+            "title": "Other DevLog 02",
+            "subtitle" : "continuing a ridiculously out of my realm project because I can.",
+            "main-content" : [
+                "Paragraph1",
+                "Paragraph2",
+                "Paragraph3"
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024"
+        } 
+
+    ]
+}
