@@ -44,19 +44,22 @@
         </div>
 
         <div class="article-content">
-            <h2>Article Title</h2>
+            <h2 class="blog-title" id="blog-title">Fractured Steel Devlog - 01</h2>
             <div class="blog-body" id="blog-body">
 
 
-                <h1>Fractured Steel Devlog - 01</h1>
+                <p class="blog-subtitle" id="blog-subtitle">Something something something but something then something...</p>
   
-                <p>This marks the first of (I hope) many devlog entries following the development of my First Person Shooter, Near-Future game built using Unity.</p>
+                <div class="blog-text" id="blog-text">
+                    <p>This marks the first of (I hope) many devlog entries following the development of my First Person Shooter, Near-Future game built using Unity.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
                 <img src="./images/dirtyRobots.png">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
 
+                </div>
+                
 
             </div>
         </div>
@@ -84,6 +87,11 @@
                 let webDevArticles = document.getElementById("webdev-articles")
                 let otherArticles = document.getElementById("other-articles");
 
+                const blogContentArea = document.getElementById("blog-body");
+                const blogContentTitle = document.getElementById("blog-title");
+                const blogContentSubtitle = document.getElementById("blog-subtitle");
+                const blogContentText = document.getElementById("blog-text");
+
                 fetch('./data/blogs.json')
                         .then(response => {
                             if (!response.ok) {
@@ -100,16 +108,16 @@
                     
 
                                devLogPosts.forEach(element => {
-                                createBlogPost(element, devlogArticles);
+                                CreateBlogPost(element, devlogArticles, devLogPosts);
 
                                });
 
                                webDevPosts.forEach(element => {
-                                createBlogPost(element, webDevArticles);
+                                CreateBlogPost(element, webDevArticles, webDevPosts);
                                })
 
                                otherPosts.forEach(element => {
-                                createBlogPost(element, otherArticles);
+                                CreateBlogPost(element, otherArticles, otherPosts);
                                })
                                
 
@@ -117,9 +125,9 @@
                         })
                         .catch(error => console.error('Error fetching JSON:', error)); 
 
-                        function createBlogPost(blogPostData, blogGroup)
+                        function CreateBlogPost(blogPostData, blogGroup, allPostsInGroup)
                         {
-                            console.log(blogPostData)
+                            
                             const blogTitle = document.createElement("a");
                             blogTitle.textContent = blogPostData["title"];
                             
@@ -130,16 +138,66 @@
 
                             blogTitle.addEventListener('click', (e) =>
                             {
-                                loadBlogContentFromLink(blogPostData["title"]);
+                                GetBlogContentFromLink(blogPostData["title"], blogGroup, allPostsInGroup);
                             })
 
 
                         }
 
-                        function loadBlogContentFromLink(linkTitle)
+                        function GetBlogContentFromLink(linkTitle, blogGroup, allPostsInGroup)
                         {
                             console.log(linkTitle);
+                            let clickedBlogPost = {};
 
+                            allPostsInGroup.forEach((post) => {
+                                if (post["title"] === linkTitle)
+                                {
+                                    clickedBlogPost = post;
+                                }
+
+                                
+                                
+                            })
+
+                            PopulateBlogContentArea(clickedBlogPost);
+
+
+
+                        }
+
+                        function PopulateBlogContentArea(clickedBlogPost)
+                        {
+                            // Update title and subtitle
+                            blogContentTitle.textContent = clickedBlogPost["title"];
+                            blogContentSubtitle.textContent = clickedBlogPost["subtitle"]
+
+                            // Clear existing content
+                            while(blogContentText.firstChild)
+                            {
+                                blogContentText.removeChild(blogContentText.lastChild);
+                            }
+
+                             // Add paragraphs and images
+                            clickedBlogPost["main-content"].forEach((block) => {
+
+                                if(block.type === "text")
+                                {
+                                    const blogParagraph = document.createElement("p");
+                                    blogParagraph.textContent = block.content;
+                                    blogContentText.appendChild(blogParagraph);
+                                }
+                                else if(block.type === "image")
+                                {
+                                    const blogImage = document.createElement("img");
+                                    blogImage.src = block.src;
+                                    blogImage.alt = block.alt || "Blog Image";
+                                    blogImage.className = "blog-image";
+                                    blogContentText.appendChild(blogImage);
+                                }
+                                
+                            })
+
+                           
                         }
 
             })

@@ -317,7 +317,10 @@ body{
 }
 
 .blog-body img{
+  display: flex;
+  flex-direction: row;
   align-self: center;
+  justify-self: center;
   max-width: 90%;
   margin-bottom: 1rem;
 }

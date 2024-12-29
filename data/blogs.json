@@ -4,26 +4,32 @@
             "title": "Fractured Steel DevLog 01",
             "subtitle" : "Starting a ridiculously out of my realm project because I can.",
             "main-content" : [
-                "Paragraph1",
-                "Paragraph2",
-                "Paragraph3"
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
             ],
             "tags": [ "game-dev", "indie-dev", "indie-games"],
             "author" : "Alexander Gorham",
-            "date-written" : "29/12/2024"
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
 
         },
         {
             "title": "Fractured Steel DevLog 02",
             "subtitle" : "continuing a ridiculously out of my realm project because I can.",
             "main-content" : [
-                "Paragraph1",
-                "Paragraph2",
-                "Paragraph3"
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
             ],
             "tags": [ "game-dev", "indie-dev", "indie-games"],
             "author" : "Alexander Gorham",
-            "date-written" : "29/12/2024"
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
         }
 
     ],
@@ -32,26 +38,32 @@
                 "title": "Wev DevLog 01",
                 "subtitle" : "Starting a ridiculously out of my realm project because I can.",
                 "main-content" : [
-                    "Paragraph1",
-                    "Paragraph2",
-                    "Paragraph3"
+                    { "type": "text", "content": "Paragraph1 DevLog1" },
+                    { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                    { "type": "text", "content": "Paragraph2 DevLog1" },
+                    { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                    { "type": "text", "content": "Paragraph3 DevLog1" }
                 ],
                 "tags": [ "game-dev", "indie-dev", "indie-games"],
                 "author" : "Alexander Gorham",
-                "date-written" : "29/12/2024"
+                "date-written" : "29/12/2024",
+                "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
     
             },
             {
                 "title": "Web DevLog 02",
                 "subtitle" : "continuing a ridiculously out of my realm project because I can.",
                 "main-content" : [
-                    "Paragraph1",
-                    "Paragraph2",
-                    "Paragraph3"
+                    { "type": "text", "content": "Paragraph1 DevLog1" },
+                    { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                    { "type": "text", "content": "Paragraph2 DevLog1" },
+                    { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                    { "type": "text", "content": "Paragraph3 DevLog1" }
                 ],
                 "tags": [ "game-dev", "indie-dev", "indie-games"],
                 "author" : "Alexander Gorham",
-                "date-written" : "29/12/2024"
+                "date-written" : "29/12/2024",
+                "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
             } 
         
 
@@ -61,26 +73,32 @@
             "title": "Other DevLog 01",
             "subtitle" : "Starting a ridiculously out of my realm project because I can.",
             "main-content" : [
-                "Paragraph1",
-                "Paragraph2",
-                "Paragraph3"
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
             ],
             "tags": [ "game-dev", "indie-dev", "indie-games"],
             "author" : "Alexander Gorham",
-            "date-written" : "29/12/2024"
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
 
         },
         {
             "title": "Other DevLog 02",
             "subtitle" : "continuing a ridiculously out of my realm project because I can.",
             "main-content" : [
-                "Paragraph1",
-                "Paragraph2",
-                "Paragraph3"
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
             ],
             "tags": [ "game-dev", "indie-dev", "indie-games"],
             "author" : "Alexander Gorham",
-            "date-written" : "29/12/2024"
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
         } 
 
     ]
