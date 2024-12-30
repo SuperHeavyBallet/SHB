@@ -27,37 +27,39 @@
         <div class="side-menu">
             <h2>Articles</h2>
             <ul class="article-menu" id="article-menu">
+                <div class="article-group">
              <h3>Dev Logs</h3>
                 <ul class="devlog-articles" id="devlog-articles">
-
+                
                 </ul>
+            </div>
+
+                <div class="article-group">
                 <h3>Web Dev</h3>
                 <ul class="webdev-articles" id="webdev-articles">
                     
                 </ul>
+            </div>
+
+            <div class="article-group">
                 <h3>Other</h3>
                 <ul class="other-articles" id="other-articles">
                     
                 </ul>
+            </div>
 
             </ul>
         </div>
 
         <div class="article-content">
-            <h2 class="blog-title" id="blog-title">Fractured Steel Devlog - 01</h2>
+            <h2 class="blog-title" id="blog-title"></h2>
             <div class="blog-body" id="blog-body">
 
 
-                <p class="blog-subtitle" id="blog-subtitle">Something something something but something then something...</p>
+                <p class="blog-subtitle" id="blog-subtitle"></p>
   
                 <div class="blog-text" id="blog-text">
-                    <p>This marks the first of (I hope) many devlog entries following the development of my First Person Shooter, Near-Future game built using Unity.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
-                <img src="./images/dirtyRobots.png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi, error similique distinctio odio recusandae nostrum temporibus, magnam dolor in, architecto placeat ad modi et facilis atque quae dolore porro.</p>
-
+                    
                 </div>
                 
 
@@ -119,11 +121,17 @@
                                otherPosts.forEach(element => {
                                 CreateBlogPost(element, otherArticles, otherPosts);
                                })
+
+                               GetBlogContentFromLink(devLogPosts[0]["title"], devlogArticles, devLogPosts);
+                            
+
                                
 
                         
                         })
                         .catch(error => console.error('Error fetching JSON:', error)); 
+
+                        
 
                         function CreateBlogPost(blogPostData, blogGroup, allPostsInGroup)
                         {
