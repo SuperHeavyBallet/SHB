@@ -17,8 +17,38 @@
 
         },
         {
-            "title": "Fractured Steel DevLog 02",
-            "subtitle" : "continuing a ridiculously out of my realm project because I can.",
+            "title": "Retroactive Devlog - Dropshop",
+            "subtitle" : "Taking a look at and disecting an older project to see what can be learnt.",
+            "main-content" : [
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
+        },
+        {
+            "title": "Retroactive Devlog - Space Munchers",
+            "subtitle" : "Taking a look at and disecting an older project to see what can be learnt.",
+            "main-content" : [
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
+        },
+        {
+            "title": "Retroactive Devlog - Messages to Mars",
+            "subtitle" : "Taking a look at and disecting an older project to see what can be learnt.",
             "main-content" : [
                 { "type": "text", "content": "Paragraph1 DevLog1" },
                 { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
@@ -35,8 +65,8 @@
     ],
     "web-dev" : [
             {
-                "title": "Wev DevLog 01",
-                "subtitle" : "Starting a ridiculously out of my realm project because I can.",
+                "title": "Starting Web Development - A Roadmap",
+                "subtitle" : "Web Development is one of the most frustrating, yet simplest fields of software development I have tried my hand at.",
                 "main-content" : [
                     { "type": "text", "content": "Paragraph1 DevLog1" },
                     { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
@@ -51,8 +81,8 @@
     
             },
             {
-                "title": "Web DevLog 02",
-                "subtitle" : "continuing a ridiculously out of my realm project because I can.",
+                "title": "Are Data Structures and Algorithms Even Important in 2025?",
+                "subtitle" : "In almost any port of entry to Web Development, Data Structures and Algorithms(DSA) will be pushed as one of the most vital pieces to understand. But, are they really that important?",
                 "main-content" : [
                     { "type": "text", "content": "Paragraph1 DevLog1" },
                     { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
@@ -60,7 +90,7 @@
                     { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
                     { "type": "text", "content": "Paragraph3 DevLog1" }
                 ],
-                "tags": [ "game-dev", "indie-dev", "indie-games"],
+                "tags": [ "web-development", "algorithms", "data structures"],
                 "author" : "Alexander Gorham",
                 "date-written" : "29/12/2024",
                 "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
@@ -70,8 +100,8 @@
     ],
     "other" : [
         {
-            "title": "Other DevLog 01",
-            "subtitle" : "Starting a ridiculously out of my realm project because I can.",
+            "title": "Staying Healthy as a Programmer.",
+            "subtitle" : "Programming is a notouriously un-healthy profession, with stereotypes of crooked spines and general poor hygeine reaching back to its roots. That may be a little exaggerated, but the reality is that the type of work that programming or software development of most kinds asks for can quite easily push you into an immobile, unhealthy lifestyle. However, it is quite quick and easy to offset this.",
             "main-content" : [
                 { "type": "text", "content": "Paragraph1 DevLog1" },
                 { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
@@ -79,27 +109,12 @@
                 { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
                 { "type": "text", "content": "Paragraph3 DevLog1" }
             ],
-            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "tags": [ "software development", "health", "fitness"],
             "author" : "Alexander Gorham",
             "date-written" : "29/12/2024",
             "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
 
-        },
-        {
-            "title": "Other DevLog 02",
-            "subtitle" : "continuing a ridiculously out of my realm project because I can.",
-            "main-content" : [
-                { "type": "text", "content": "Paragraph1 DevLog1" },
-                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
-                { "type": "text", "content": "Paragraph2 DevLog1" },
-                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
-                { "type": "text", "content": "Paragraph3 DevLog1" }
-            ],
-            "tags": [ "game-dev", "indie-dev", "indie-games"],
-            "author" : "Alexander Gorham",
-            "date-written" : "29/12/2024",
-            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
-        } 
+        }
 
     ]
 }

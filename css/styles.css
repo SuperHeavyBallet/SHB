@@ -296,6 +296,20 @@ body{
   width: 60rem;
 }
 
+/* Article Menus */
+
+.article-group{
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.article-group h3{
+  text-align: end;
+  padding-bottom: 0.5rem;
+  color: #ffa500;
+  padding-right: 1rem;
+}
 /* Article Content */
 .article-content{
   display: flex;
