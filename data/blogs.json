@@ -1,6 +1,22 @@
 {
     "dev-logs" : [
         {
+            "title": "Is Unreal Engine Ruining Good Games?",
+            "subtitle" : "Unreal Engine 5 (UE5) has quickly become one of the go-to options for game developers, both at the AAA level and below. Traditionally, AAA gaming and indie gaming have been quite different fields, largely differing by level of depth and technological density, aka, making AAA games is harder and requires more people than making a small indie game. With UE5, the opportunity comes for smaller developer teams - or even solo devs - to harness some of the power and complexity that previously would require teams of massively specialised people to more properly understand, now simplified into check boxes and drop down menu abstractions.",
+            "main-content" : [
+                { "type": "text", "content": "Paragraph1 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image1.png", "alt": "DevLog 1 Image 1" },
+                { "type": "text", "content": "Paragraph2 DevLog1" },
+                { "type": "image", "src": "./images/blogs/devLogs/devlog1_image2.png", "alt": "DevLog 1 Image 2" },
+                { "type": "text", "content": "Paragraph3 DevLog1" }
+            ],
+            "tags": [ "game-dev", "indie-dev", "indie-games"],
+            "author" : "Alexander Gorham",
+            "date-written" : "29/12/2024",
+            "images": ["./images/blogs/devLogs/devlog1_image1.png", "./images/blogs/devLogs/devlog1_image1.png"]
+
+        },
+        {
             "title": "Fractured Steel DevLog 01",
             "subtitle" : "Starting a ridiculously out of my realm project because I can.",
             "main-content" : [
